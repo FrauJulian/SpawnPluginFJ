@@ -1,0 +1,41 @@
+#    _____                              _____  _             _       
+#   / ____|                            |  __ \| |           (_)      
+#  | (___  _ __   __ ___      ___ __   | |__) | |_   _  __ _ _ _ __  
+#   \___ \| '_ \ / _` \ \ /\ / / '_ \  |  ___/| | | | |/ _` | | '_ \ 
+#   ____) | |_) | (_| |\ V  V /| | | | | |    | | |_| | (_| | | | | |
+#  |_____/| .__/ \__,_| \_/\_/ |_| |_| |_|    |_|\__,_|\__, |_|_| |_|
+#         | |                                           __/ |        
+#         |_|                                          |___/         
+# by FrauJulian
+#
+# Permissions:
+# "spawnplugin.setspawn" fpr /setspawn /ss
+# "spawnplugin.spawn" for /spawn /sp
+#
+#THIS PLUGIN SUPPORTS & COLOR CODES
+#PLACEHOLDER FOR JOIN MESSAGES = %player%
+#IF YOU SET COOLDOWNS OR COUNTDOWN TO 0, IT IS DEACTIVATED
+#TIME DATA ARE IN SECONDS
+#
+#Plugin Support via Discord!
+#https://discord.gg/BK8mnMdzxR
+#
+#MORE LANGUAGES ON GITHUB
+#https://github.com/FrauJulian/SpawnPluginFJ-languages/
+#
+# Version: 2.0-RELEASE
+
+join-message: "&8[&eSpawn&8] &aWelcome %player%!"
+leave-message: "&8[&eSpawn&8] &cBye %player%!"
+countdown-time: 3
+spawn-countdown: "&8[&eSpawn&8] &eTeleporting in..."
+spawn-arrival: "&8[&eSpawn&8] &eWelcome to the Spawn!"
+back-arrival: "&8[&eSpawn&8] &eYou have been teleported!"
+no-back-data: "&8[&eSpawn&8] &cNo data found for this command!"
+cooldown-time: 0
+cooldown-message: "&8[&eSpawn&8] &cSorry, you have to wait until the command has power again!"
+cooldown-color: "&e"
+spawn-set: "&8[&eSpawn&8] &eYou have set the spawnpoint!"
+no-spawnpoint: "&8[&eSpawn&8] &cNo spawnpoint has been set yet!"
+no-permission: "&8[&eSpawn&8] &cYou don't have permission to use this command!"
+must-player: "&8[&eSpawn&8] &cYou must be a player!"

@@ -1,0 +1,16 @@
+name: SpawnPluginFJ
+version: '${project.version}'
+main: at.spawn.spawn
+api-version: '1.20'
+authors: [FrauJulian]
+description: A simple spawn plugin!
+commands:
+  setspawn:
+    description: Set the spawn point!
+    usage: /setspawn
+  spawn:
+    description: Teleports you to the spawn point!
+    usage: /spawn
+  back:
+    description: Teleport the Player back to previous location.
+    usage: /back
