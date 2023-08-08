@@ -62,26 +62,6 @@ public class SpawnCommand implements CommandExecutor {
         for (int i = countdownTime; i > 0; i--) {
             player.sendMessage(ChatColor.translateAlternateColorCodes('&', Objects.<String>requireNonNull(this.plugin.getConfig().getString("cooldown-color", "§e") + i)));
 
-            if (player.isSprinting() | player.isFlying() | player.isSneaking() | player.isGliding() | player.isJumping()) {
-                player.sendMessage(ChatColor.translateAlternateColorCodes('&', Objects.<String>requireNonNull(this.plugin.getConfig().getString("player-moves", "§8[§eSpawn§8] §cAction canceled, you moved!"))));
-                return true;
-            }
-
-            boolean cancelMove;
-
-            cancelMove = false;
-
-            if (player.isSprinting() | player.isFlying() | player.isSneaking() | player.isGliding() | player.isJumping()) {
-                cancelMove = true;
-            }
-
-            if (cancelMove == true) {
-                player.sendMessage(ChatColor.translateAlternateColorCodes('&', Objects.<String>requireNonNull(this.plugin.getConfig().getString("player-moves", "§8[§eSpawn§8] §cAction canceled, you moved!"))));
-                return true;
-            }
-
-            cancelMove = false;
-
             try {
                 Thread.sleep(1000L);
             } catch (InterruptedException e) {
