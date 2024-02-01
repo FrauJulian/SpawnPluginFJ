@@ -1,11 +1,8 @@
 # 🖥️ SpawnPluginFJ
 
-## Lets code together!
+## Lets code together, just fork it!
 
-**Create a fork, develop the bot, create a pull request!**
+**This is my spawn plugin for Minecraft servers. This plugin is available on SpigotMC.**
+**It is possible that this source code is faulty or incomplete, which is why the latest developer version is always uploaded.**
 
-<div align="center">
-    <img src="https://skillicons.dev/icons?i=java,idea,github,git"/>
-</div>
-
-## ~ FrauJulian | WORK TOGETHER
+## ~ FrauJulian
